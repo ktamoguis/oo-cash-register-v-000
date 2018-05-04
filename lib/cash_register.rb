@@ -19,7 +19,7 @@ class CashRegister
     @quantity = quantity
     self.total
     while i < quantity
-      @items < item
+      @items << item
       i += 1
     end
   end
