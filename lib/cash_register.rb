@@ -8,7 +8,6 @@ class CashRegister
   end
 
   def total
-    @total = @price * @quantity
     @total
   end
 
