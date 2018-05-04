@@ -7,4 +7,8 @@ class CashRegister
     @items = []
   end
 
+  def total
+    @total
+  end
+
 end
