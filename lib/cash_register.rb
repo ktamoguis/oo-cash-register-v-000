@@ -34,5 +34,6 @@ class CashRegister
     else
       "After the discount, the total comes to #{@total*(1-@discount/100)}"
     end
+  end
 
 end
