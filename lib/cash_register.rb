@@ -9,7 +9,6 @@ class CashRegister
   end
 
   def total
-    @total = @total + @price * @quantity
     @total
   end
 
@@ -22,7 +21,7 @@ class CashRegister
     @item = item
     @price = price
     @quantity = quantity
-    self.total
+    @total = @total + @price * @quantity
     while i < @quantity
       @items << item
       i += 1
