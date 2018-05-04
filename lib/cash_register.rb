@@ -12,13 +12,13 @@ class CashRegister
     @total
   end
 
-  def add_item(item, price, quantity = 1)
+  def add_item(item, price, quantity=1)
     i = 0
     @item = item
     @price = price
     @quantity = quantity
     self.total
-    while i < quantity
+    while i < @quantity
       @items << item
       i += 1
     end
