@@ -33,7 +33,7 @@ class CashRegister
       "There is no discount to apply."
     else
       @total = @total * (1- @discount / 100)
-      "After the discount, the total comes to #{}"
+      "After the discount, the total comes to #{@total}"
     end
   end
 
