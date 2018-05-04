@@ -10,6 +10,7 @@ class CashRegister
 
   def total
     @total = @total + @price * @quantity
+    @total
   end
 
   def items
